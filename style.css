@@ -30,6 +30,10 @@ h2 {
   color: white;
 }
 
+section {
+  margin: 0px 10% 30px 10%;
+}
+
 header {
   display: flex;
   justify-content: flex-end;
@@ -72,16 +76,20 @@ header {
   background-color: var(--primary-dark);
 }
 
-.gallery-top {
+.gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  padding: 0px 10% 30px 10%;
   gap: 15px;
 }
 
 .gallery__item-big {
   grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+.gallery_item-big--second {
+  grid-column: 2 / span 3;
   grid-row: 1 / span 2;
 }
 
@@ -118,7 +126,6 @@ header {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   gap: 15px;
-  padding: 0px 10% 30px 10%;
 }
 
 .card {
@@ -142,4 +149,40 @@ header {
 
 .card p {
   color: black;
+}
+
+.news {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 15px;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+
+.new h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: var(--primary);
+}
+
+.new p {
+  color: black;
+}
+
+.news-date p {
+  color: gray;
+}
+
+footer {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin: 0px 10% 30px 10%;
 }
