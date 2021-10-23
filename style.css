@@ -112,3 +112,34 @@ header {
   padding: 9px 10px;
   background: var(--primary);
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 15px;
+  padding: 0px 10% 30px 10%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.card-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.card h3 {
+  margin: 25px 25px;
+  color: var(--primary);
+}
+
+.card p {
+  color: black;
+}
