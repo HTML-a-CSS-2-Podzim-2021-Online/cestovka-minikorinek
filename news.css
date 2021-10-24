@@ -1,0 +1,23 @@
+.news {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 15px;
+}
+
+.news__date p {
+  color: gray;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--card-bg);
+  padding: 15px;
+}
+
+.new h4 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: var(--primary);
+}

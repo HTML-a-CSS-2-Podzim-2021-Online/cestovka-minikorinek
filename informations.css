@@ -1,0 +1,29 @@
+.informations {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 15px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--card-bg);
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.info h4 {
+  color: var(--primary);
+}
+
+.info h4,
+.info p {
+  padding: 10px;
+}
+
+.informations img {
+  max-width: 60%;
+  margin: 15px;
+}

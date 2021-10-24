@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav__faq {
+  color: white;
+  text-decoration: none;
+}
+
+.header__logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: var(--primary-dark);
+}
+
+.nav__faq {
+  margin-left: 20px;
+  padding: 15px 15px;
+  background-color: var(--primary);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.nav__faq:hover {
+  background-color: var(--primary-dark);
+}
