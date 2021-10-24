@@ -10,20 +10,20 @@
   <body>
     <header>
       <img class="logo" src="podklady/logo.svg" alt="logo" />
-      <nav>
+      <nav class="navbar">
         <ul class="nav__links">
           <li><a href="#">Last minute</a></li>
           <li><a href="#">Destinace</a></li>
         </ul>
       </nav>
-      <a href="#" class="cta">Časté otázky</a>
+      <a href="#" class="nav__faq">Časté otázky</a>
     </header>
     <main>
       <section class="gallery">
-        <div class="gallery__item gallery__item-big">
+        <div class="gallery__item gallery__item--big">
           <img src="podklady/palmy.jpg" alt="zájezd k moři" />
           <div class="gallery__text">
-            <h2>Pohoda pod palmami</h2>
+            <h3>Pohoda pod palmami</h3>
             <p>Nejlepší dovolená pro nejvíc nejlínější lidi na světě</p>
           </div>
           <div class="price">
@@ -34,7 +34,7 @@
         <div class="gallery__item">
           <img src="podklady/jezero.jpg" alt="zájezd k jezeru" />
           <div class="gallery__text">
-            <h2>Klid u jezera</h2>
+            <h3>Klid u jezera</h3>
           </div>
           <div class="price">
             <p>8 490 Kč</p>
@@ -44,7 +44,7 @@
         <div class="gallery__item">
           <img src="podklady/nakole.jpg" alt="zájezd na kole" />
           <div class="gallery__text">
-            <h2>Výlet na kole</h2>
+            <h3>Výlet na kole</h3>
           </div>
           <div class="price">
             <p>4 990 Kč</p>
@@ -54,40 +54,40 @@
 
       <section class="cards">
         <div class="card">
-          <div class="card-icon">
+          <div class="card__icon">
             <img src="podklady/map.svg" alt="ikona posuvník" />
           </div>
-          <h3>Podpora na místě</h3>
+          <h4>Podpora na místě</h4>
           <p>
             V cílové destinaci jsou k dispozici naši delegáti, kteří vám vždy
             rádi poradí.
           </p>
         </div>
         <div class="card">
-          <div class="card-icon">
+          <div class="card__icon">
             <img src="podklady/plane.svg" alt="ikona letadlo" />
           </div>
-          <h3>Služby na letišti</h3>
+          <h4>Služby na letišti</h4>
           <p>
             Při odletu tam i zpět za vás odbavíme vaše zavadla. Na letišti
             nebudete čekat.
           </p>
         </div>
         <div class="card">
-          <div class="card-icon">
+          <div class="card__icon">
             <img src="podklady/globe.svg" alt="ikona země" />
           </div>
-          <h3>Do celého světa</h3>
+          <h4>Do celého světa</h4>
           <p>
             Nabízíme pravidelné slevy na vybraných destinací na všech
             kontinentech.
           </p>
         </div>
         <div class="card">
-          <div class="card-icon">
+          <div class="card__icon">
             <img src="podklady/shield.svg" alt="ikona štít" />
           </div>
-          <h3>Vaše bezpečí</h3>
+          <h4>Vaše bezpečí</h4>
           <p>
             Není-li v cílové destinaci v čase odletu bezpečno, vrátíme vám
             peníze.
@@ -95,13 +95,13 @@
         </div>
       </section>
 
-      <section class="bottom-gallery">
-        <h3>Last minute zájezdy</h3>
+      <section class="gallery-bottom">
+        <h2>Last minute zájezdy</h2>
         <div class="gallery">
           <div class="gallery__item">
             <img src="podklady/podkova.jpg" alt="zájezd Grand Canyon" />
             <div class="gallery__text">
-              <h2>Grand Canyon</h2>
+              <h3>Grand Canyon</h3>
             </div>
             <div class="price">
               <p>18 500 Kč</p>
@@ -111,17 +111,17 @@
           <div class="gallery__item">
             <img src="podklady/zatoka.jpg" alt="zájezd Kanárské ostrovy" />
             <div class="gallery__text">
-              <h2>Pěšky po Kanárských ostrovech</h2>
+              <h3>Pěšky po Kanárských ostrovech</h3>
             </div>
             <div class="price">
               <p>8 900 Kč</p>
             </div>
           </div>
 
-          <div class="gallery__item gallery_item-big--second">
+          <div class="gallery__item gallery__item--big-second">
             <img src="podklady/lodicka.jpg" alt="zájezd k horskému jezeru" />
             <div class="gallery__text">
-              <h2>Romantika u horského jezera</h2>
+              <h3>Romantika u horského jezera</h3>
               <p>
                 Dechberoucí výhledy na horské štíty a zrcadlovou hladinu jezera.
               </p>
@@ -133,14 +133,14 @@
         </div>
       </section>
 
-      <section class="last section">
-        <h3>Novinky</h3>
+      <section class="last-section">
+        <h2>Novinky</h2>
         <div class="news">
           <div class="new">
-            <div class="news-date">
+            <div class="news__date">
               <p>15. 8. 2020</p>
             </div>
-            <h3>Magický Zanzibar</h3>
+            <h4>Magický Zanzibar</h4>
             <p>
               Zanzibar, při vyslovení jména tohoto kouzelného ostrova, se vybaví
               vůně exotických koření, příznivé klima, teplé moře, exotická flóra
@@ -148,10 +148,10 @@
             </p>
           </div>
           <div class="new">
-            <div class="news-date">
+            <div class="news__date">
               <p>31. 9. 2020</p>
             </div>
-            <h3>Návrat českých občanů ze zahraničí</h3>
+            <h4>Návrat českých občanů ze zahraničí</h4>
             <p>
               Všichni občané ČR vracející se ze zahraničí zpět se musí řídit
               podmínkami uvedenými v platném Ochranném opatření Ministerstva
@@ -159,10 +159,10 @@
             </p>
           </div>
           <div class="new">
-            <div class="news-date">
+            <div class="news__date">
               <p>6. 10. 2020</p>
             </div>
-            <h3>Na Kubu s PCR testem</h3>
+            <h4>Na Kubu s PCR testem</h4>
             <p>
               Při vstupu do země se buď musíte prokázat negativním PCR testem na
               Covid-19, který byl proveden max. 72 hodin před příletem do
